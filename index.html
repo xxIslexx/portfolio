@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Wevsite" />
+    <!--description for search engines -->
+    <link rel="icon" href="https://iut.univ-cotedazur.fr/uas/composante-iut/LOGO/logo-iut-couleur.png">
+     <!--FAST ICON for search engines -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link to css file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- link to icons file -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <!-- link to jquery file, this is used to make javascript code shorter -->
+    <script src="script.js"></script>
+    <!-- link to javascript file -->
+    <title>ELTCHI ASLAMBEKOV</title>
+  </head>
+  <body>
+    <!--This is the header section in which I have included my name,pfp and navbar,I decided to display it sideways for a different look and convinience -->
+    <header>
+      <div class="main">
+        <img src="pfp.webp" alt="" />
+        <h3 class="name">Aslambekov Eltchi</h3>
+        <p class="post">Développeur/Cybersécurité</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Mes Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- HEADER SECTION END -->
+    <i class="fa fa-bars" id="menu"></i>
+    <!-- Home section -->
+    <!--This is the HOME section which briefly introduced me and provides a link to know more about me-->
+    <section class="home" id="home">
+      <h3>BIENVENUE !</h3>
+      <h1>Je m'appelle <span>Eltchi Aslambekov</span></h1>
+      <p>
+        Je suis actuellement en 1ère année en BUT Réseaux et Télécommunications, 
+        avec pour objectif de devenir expert en cybersécurité grâce à un master. Je suis passionné par l’informatique, 
+        en particulier le développement et la cybersécurité. 
+      </p>
+      <a href="#about"><button class="btn">A propos</button></a>
+    </section>
+    <!-- HOME SECTION END -->
+
+    <!-- ABOUT SECTION STARTS  -->
+    <!--This is the ABOUT section in which I give more details about me and provide a link to my cv.It also lists my achievements -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>A propos </span></h1>
+      <div class="row">
+        <div class="info">
+          <h3><span>Nom:</span>Eltchi Aslambekov</h3>
+          <h3><span>Etude:</span>1ere année en BUT Réseaux & Telecom</h3>
+          <h3><span>langues:</span>Anglais, Russe</h3>
+          <a href="cv.pdf"
+            ><button download class="btn">CV</button></a
+          >
+        </div>
+        <div class="counter">
+          <div class="box">
+            <span>💻</span>
+            <h3>Passionné par le dév </h3>
+          </div>
+          <div class="box">
+            <span>🔐</span>
+            <h3>Passionné par la Cybersécurité</h3>
+          </div>
+          <div class="box">
+            <span id="os"><strong>Tennis</strong></span>
+            <h3>best classement --> 15/3🎾</h3>
+          </div>
+          <div class="box">
+            <span id = "os"><strong>OS :</strong></span>
+            <h3>Linux🐧 Windows🪟</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ABOUT SECTION END -->
+
+      <!-- SKILLS SECTION START -->
+      <!--This is the SKILLS section in which I displayed my command over frontend using animated bars -->
+    </section>
+    <section class="skills" id="skills">
+      <h1 class="heading">Mes <span> Compétences </span></h1>
+      <div class="webdev">
+        <li>
+          <h4>PYTHON / C++</h4>
+          <span class="bar"><span class="html"></span></span>
+          <!-- skill bar 1 -->
+        </li>
+
+        <li>
+          <h4>Cybersécurité</h4>
+          <span class="bar"><span class="js"></span></span
+          ><!-- skill bar 3 -->
+        </li>
+
+        <li>
+          <h4>Administration Réseaux</h4>
+          <span class="bar"><span class="css"></span></span
+          ><!-- skill bar 2 -->
+        </li>
+
+        <li>
+          <h4>Adobe After Effects</h4>
+          <span class="bar"><span class="bs"></span></span
+          ><!-- skill bar 5 -->
+        </li>
+        <li>
+          <h4>HTML / CSS /+ JAVASCRIPT / PHP</h4>
+          <span class="bar"><span class="bs"></span></span
+          ><!-- skill bar 4 -->
+        </li>
+
+        
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+    <!-- PORTFOLIO SECTION START -->
+    <!-- I tried to display certain projects using media -->
+    <section class="projects" id="projects">
+      <h1 class="heading">Mes <span> Projets </span></h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="http://isis.unice.fr/~ae300795/acces/site_web/tp/tennis.html">
+          <img
+            src="tennis.png" 
+            alt=""
+          /></a>
+        </div>
+        <div class="box">
+          <a href="forza_wish.zip"><img src="voit.webp" alt="" /></a>
+        </div>
+        <div class="box">
+          <a href="https://9881635a-23eb-4994-8d38-bd0416078374-00-2z6a94i3y7tog.worf.replit.dev/Thales/login.html"><img src="thales.png" alt="" /></a>
+        </div>
+        <div class="box">
+            mettre un projet ici
+        </div>
+        <div class="box">
+          mettre un projet ici
+        </div>
+        <div class="box">
+          <!-- pour mettre une video youtube
+          <iframe
+            width="100%"
+            height="100%"
+            src="mettre le lien"
+          >
+          </iframe>
+          -->
+        </div>
+        <div class="box">
+          <!-- pour mettre une video youtube
+          <iframe
+            width="100%"
+            height="100%"
+            src="mettre le lien"
+          >
+          </iframe>
+          -->
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span> me contacter </span></h1>
+
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder=" Entrer votre nom" class="box" />
+          <input type="email" placeholder="Entrer votre email" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="description"
+          ></textarea>
+          <a class="btn" href="mailto:eltchi.aslambekov@gmail.com">
+            Envoyer <i class="fa fa-paper-plane-o"></i
+          ></a>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="bottom">
+        <div class="socials">
+          <!--<a href="lien vers compte twitter" class="fa fa-twitter"></a>-->
+          <a href="https://github.com/xxIslexx" class="fa fa-github"></a>
+          <a href="https://www.linkedin.com/in/eltchiaslambekov" class="fa fa-linkedin"></a>
+        </div>
+
+        <h3>© 2024 Eltchi Aslambekov</h3>
+      </div>
+    </footer>
+  </body>
+</html>
