@@ -65,6 +65,10 @@ body {
   color: white;
 }
 
+#couleur{
+  color : white;
+}
+
 header {
   position: fixed;
   top: 0;
