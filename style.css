@@ -342,6 +342,9 @@ header .navbar ul li a:hover {
 .projects .box-container .box:hover img {
   transform: scale(1.2);
 }
+.projects .box-container .box:hover p {
+  opacity: 1;
+}
 
 .contact .row {
   display: flex;
