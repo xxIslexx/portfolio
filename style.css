@@ -36,6 +36,12 @@ body {
   overflow-x: hidden;
   padding-left: 35rem;
 }
+p {
+  font-size: 2rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  font-weight: normal;
+}
 .heading {
   text-align: center;
   margin: 0 6rem;
