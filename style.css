@@ -363,10 +363,10 @@ header .navbar ul li a:hover {
   opacity: 1;
 }
 .projects .box-container .box .overlay p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--pink);
   padding: 1rem 0;
-  font-weight: normal;
+  font-weight: bold;
 }
 .contact .row {
   display: flex;
