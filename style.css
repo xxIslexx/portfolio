@@ -362,7 +362,12 @@ header .navbar ul li a:hover {
 .projects .box-container .box:hover .overlay {
   opacity: 1;
 }
-
+.projects .box-container .box .overlay p {
+  font-size: 1.5rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  font-weight: normal;
+}
 .contact .row {
   display: flex;
   align-items: center;
