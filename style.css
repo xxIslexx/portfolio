@@ -170,6 +170,7 @@ header .navbar ul li a:hover {
 .home span {
   color: var(--pink);
 }
+
 .about .row {
   display: flex;
   align-items: center;
@@ -213,6 +214,11 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   color: #fff;
 }
+
+button {
+  cursor: pointer;
+}
+
 .skills h4 {
   font-size: 30px;
   padding: 1rem;
@@ -343,7 +349,7 @@ header .navbar ul li a:hover {
   transition: transform 0.3s ease;
 }
 .projects .box-container .box:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .projects .box-container .box .overlay {
   position: absolute;

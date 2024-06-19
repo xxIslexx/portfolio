@@ -10,4 +10,7 @@ $(document).ready(function(){
     window.addEventListener("focus",() =>{
       document.title = DocTitle;
     });
+    document.querySelector('.click').addEventListener('click', function() {
+      alert('Button was clicked!');
+    });
   });
