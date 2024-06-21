@@ -227,14 +227,19 @@ header .navbar ul li a:hover {
   border: 2px solid white;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   z-index: 1000; /* Assure que le modal est au-dessus des autres éléments */
-  padding: 20px;
-  text-align: center;
+  text-align: justify;
   font-size: 2rem;
-  padding: 1rem 0;
+  padding: 2rem;
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 .modal p{
   color: white;
+}
+.modal h4{
+  color: white;
+  text-align: center;
 }
 
 .overlay_modal {
@@ -255,7 +260,6 @@ header .navbar ul li a:hover {
   width: 6em;
   height: 2.6em;
   line-height: 2.5em;
-  margin: 20px;
   position: relative;
   overflow: hidden;
   border: 2px solid var(--color);
@@ -266,6 +270,8 @@ header .navbar ul li a:hover {
   font-weight: 500;
   color: var(--color);
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
  }
  
  .closeButton:before {
@@ -297,6 +303,10 @@ header .navbar ul li a:hover {
   background: #3a0ca3;
   transition: background 0s;
  }
+
+.box-container .modal #img {
+  cursor: default;
+}
 
 .skills h4 {
   font-size: 30px;
