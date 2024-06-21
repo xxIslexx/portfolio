@@ -249,6 +249,10 @@ header .navbar ul li a:hover {
   color: white;
   text-decoration: underline;
 }
+#modal7 {
+  width: 900px;
+  height: 400px;
+}
 
 .overlay_modal {
   display: none; /* Cache l'overlay par défaut */

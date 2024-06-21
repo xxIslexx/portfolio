@@ -108,19 +108,19 @@ $(document).ready(function(){
     });
 
     //MODAL 7
-    document.getElementById('img4').addEventListener('click', function() {
+    document.getElementById('img7').addEventListener('click', function() {
       document.querySelector('.overlay_modal').style.display = 'block';
-      document.getElementById('modal4').style.display = 'block';
+      document.getElementById('modal7').style.display = 'block';
     });
 
-    document.getElementById('closeButton4').addEventListener('click', function() {
+    document.getElementById('closeButton7').addEventListener('click', function() {
         document.querySelector('.overlay_modal').style.display = 'none';
-        document.getElementById('modal4').style.display = 'none';
+        document.getElementById('modal7').style.display = 'none';
     });
 
     document.querySelector('.overlay_modal').addEventListener('click', function() {
         document.querySelector('.overlay_modal').style.display = 'none';
-        document.getElementById('modal4').style.display = 'none';
+        document.getElementById('modal7').style.display = 'none';
     });
 
     //MODAL 8
