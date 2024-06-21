@@ -124,18 +124,18 @@ $(document).ready(function(){
     });
 
     //MODAL 8
-    document.getElementById('img4').addEventListener('click', function() {
+    document.getElementById('img8').addEventListener('click', function() {
       document.querySelector('.overlay_modal').style.display = 'block';
-      document.getElementById('modal4').style.display = 'block';
+      document.getElementById('modal8').style.display = 'block';
     });
 
-    document.getElementById('closeButton4').addEventListener('click', function() {
+    document.getElementById('closeButton8').addEventListener('click', function() {
         document.querySelector('.overlay_modal').style.display = 'none';
-        document.getElementById('modal4').style.display = 'none';
+        document.getElementById('modal8').style.display = 'none';
     });
 
     document.querySelector('.overlay_modal').addEventListener('click', function() {
         document.querySelector('.overlay_modal').style.display = 'none';
-        document.getElementById('modal4').style.display = 'none';
+        document.getElementById('modal8').style.display = 'none';
     });
   });
