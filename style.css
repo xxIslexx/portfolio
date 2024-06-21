@@ -241,6 +241,14 @@ header .navbar ul li a:hover {
   color: white;
   text-align: center;
 }
+#modal5 {
+  width: 900px;
+  height: 300px;
+}
+.modal a{
+  color: white;
+  text-decoration: underline;
+}
 
 .overlay_modal {
   display: none; /* Cache l'overlay par défaut */
